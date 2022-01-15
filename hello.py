@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     print('HI')
-    return "<h1>Hello, my best Friend!</h1>"
+    return "<h1>Hello, my friend!</h1>"
 
 @app.route('/user/<username>')
 def show_user_profile(username):
